@@ -18,7 +18,9 @@ class Program {
 
     Console.WriteLine("Enter the price of the product: ");
       price = Double.Parse(Console.ReadLine());
+      
     //Finding out that you can just do a parse instead of a convert really took an hour of my time.
+
     total = price * quantity;
 
     Console.WriteLine("Your total is: " + total);
